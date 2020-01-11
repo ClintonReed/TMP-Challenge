@@ -1,5 +1,46 @@
-$font-stack:    Arial;
+//Variables
+$font-stack: Arial;
 
+//Body
 body {
   font: 100% $font-stack;
+}
+
+//Footer
+footer {
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  /* Facebook */
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+  }
+
+  /* Twitter */
+  .fa-twitter {
+    background: #55acee;
+    color: white;
+  }
+
+  /* Linked-In */
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  /* YouTube */
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
 }

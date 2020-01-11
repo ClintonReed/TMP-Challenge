@@ -2,4 +2,37 @@ body {
   font: 100% Arial;
 }
 
+footer {
+  /* Facebook */
+  /* Twitter */
+  /* Linked-In */
+  /* YouTube */
+}
+footer .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+footer .fa:hover {
+  opacity: 0.7;
+}
+footer .fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+footer .fa-twitter {
+  background: #55acee;
+  color: white;
+}
+footer .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+footer .fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
