@@ -6,41 +6,57 @@ body {
   font: 100% $font-stack;
 }
 
+//Logo
+.logo {
+  height: 35px;
+  width: 317px;
+  padding-left: 36px;
+  padding-top: 64px;
+  padding-bottom: 52px;
+}
+
+//Banner
+
+//Middle Text
+
+//Pics and Quotes
+
 //Footer
-footer {
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
 
-  .fa:hover {
-    opacity: 0.7;
-  }
+/* Icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
 
-  /* Facebook */
-  .fa-facebook {
-    background: #3b5998;
-    color: white;
-  }
+/* Icon Hover */
+.fa:hover {
+  opacity: 0.7;
+}
 
-  /* Twitter */
-  .fa-twitter {
-    background: #55acee;
-    color: white;
-  }
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
 
-  /* Linked-In */
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
 
-  /* YouTube */
-  .fa-youtube {
-    background: #bb0000;
-    color: white;
-  }
+/* Linked-In */
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/* YouTube */
+.fa-youtube {
+  background: #bb0000;
+  color: white;
 }

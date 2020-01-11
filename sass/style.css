@@ -2,29 +2,48 @@ body {
   font: 100% Arial;
 }
 
-footer .fa {
+.logo {
+  height: 35px;
+  width: 317px;
+  padding-left: 36px;
+  padding-top: 64px;
+  padding-bottom: 52px;
+}
+
+/* Icons */
+.fa {
   padding: 20px;
   font-size: 30px;
   width: 50px;
   text-align: center;
   text-decoration: none;
 }
-footer .fa:hover {
+
+/* Icon Hover */
+.fa:hover {
   opacity: 0.7;
 }
-footer .fa-facebook {
+
+/* Facebook */
+.fa-facebook {
   background: #3b5998;
   color: white;
 }
-footer .fa-twitter {
+
+/* Twitter */
+.fa-twitter {
   background: #55acee;
   color: white;
 }
-footer .fa-linkedin {
+
+/* Linked-In */
+.fa-linkedin {
   background: #007bb5;
   color: white;
 }
-footer .fa-youtube {
+
+/* YouTube */
+.fa-youtube {
   background: #bb0000;
   color: white;
 }
