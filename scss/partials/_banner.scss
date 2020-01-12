@@ -4,12 +4,14 @@
   .lady-image {
     width: 100vw;
     display: flex;
-    z-index: 0;
   }
 
-  .vector-grpahic {
-    display: flex;
-    z-index: 1;
+  .vector-graphic {
+    top: 151px;
+    left: 615px;
+    right: 0;
+    bottom: 0;
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
   }
 
   h1, p {

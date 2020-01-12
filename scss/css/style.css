@@ -306,11 +306,14 @@ img {
 .banner .lady-image {
   width: 100vw;
   display: flex;
-  z-index: 0;
 }
-.banner .vector-grpahic {
-  display: flex;
-  z-index: 1;
+.banner .vector-graphic {
+  top: 151px;
+  left: 615px;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  /* Specify a stack order in case you're using a different order for other elements */
 }
 .banner h1, .banner p {
   text-align: center;
