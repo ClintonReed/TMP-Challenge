@@ -1,11 +1,18 @@
 .banner {
 
-
   .lady-image {
     width: 100vw;
     display: flex;
   }
 
+  h1 {
+    padding-top: 64px;
+    padding-bottom: 0px;
+  }
+
+  p {
+    font-size: 30pt;
+  }
 
   h1, p {
     text-align: center;
@@ -28,8 +35,11 @@
     button {
       height: 40px;
       width: 165px;
-      background-color: $orange;
+      background-color: #e97300;
+      font-size: 18pt;
       color: white;
-    }
+      text-align: center;
+      border: none;
+        }
   }
 }
