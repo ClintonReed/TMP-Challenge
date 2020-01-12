@@ -67,11 +67,11 @@ hr {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .banner .career-button button {
@@ -94,12 +94,14 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  position: relative;
+      flex-wrap: wrap;
+  position: center;
   -ms-flex-line-pack: center;
-  align-content: center;
-  padding-bottom: 62px;
-  padding-left: 36px;
+      align-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-bottom: 54px;
 }
 
 .flex-container-1 h2 {
@@ -108,16 +110,8 @@ h1 {
   font-size: 24pt;
 }
 
-.flex-container-1 .vl {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  bottom: 0;
-  margin: 0;
-  border: none;
-  height: 143px;
-  border-left: 1px solid;
-  color: #c0c0c0;
+.flex-container-1 .br {
+  color: black;
 }
 
 .flex-container-1 .unique-products,
@@ -125,9 +119,8 @@ h1 {
 .flex-container-1 .closing-time,
 .flex-container-1 .voice {
   height: 110px;
-  width: 800px;
-  padding-left: 36px;
-  padding-bottom: 152px;
+  width: 700px;
+  padding-bottom: 300px;
   text-align: left;
   font-size: 18pt;
 }
@@ -202,7 +195,7 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted;
+          text-decoration: underline dotted;
   /* 2 */
 }
 
@@ -317,7 +310,7 @@ fieldset {
    */
 legend {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   /* 1 */
   color: inherit;
   /* 2 */
@@ -352,7 +345,7 @@ textarea {
 [type="checkbox"],
 [type="radio"] {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */
