@@ -1,0 +1,26 @@
+body {
+  font-family: 100% $font-stack;
+  background: white;
+  line-height: 1.6;
+}
+
+h1 {
+  color: $dark-green;
+  line-height: 1;
+  font-size: 30pt;
+}
+
+h2 {
+  color: $dark-green;
+  line-height: 1;
+  font-size: 24pt;
+}
+
+h1, h2, p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+img {
+  max-width: 100%;
+}
