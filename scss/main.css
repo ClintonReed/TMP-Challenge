@@ -1,3 +1,159 @@
+body {
+  font-family: 100% Arial;
+  background: white;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #00945f;
+  font-size: 30pt;
+  margin: 0;
+}
+
+h2 {
+  color: #00945f;
+  font-size: 24pt;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  width: 5%;
+}
+
+.logo {
+  height: 35px;
+  width: 317px;
+  padding-left: 36px;
+  padding-top: 64px;
+  padding-bottom: 52px;
+}
+
+.banner .lady-image {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.banner h1 {
+  padding-top: 64px;
+  padding-bottom: 0px;
+}
+
+.banner p {
+  font-size: 30pt;
+}
+
+.banner h1,
+.banner p {
+  text-align: center;
+}
+
+.banner h1::after {
+  content: "";
+  margin: 0 auto;
+  display: block;
+  width: 30%;
+  height: 2px;
+  color: #00945f;
+}
+
+.banner .career-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.banner .career-button button {
+  height: 40px;
+  width: 165px;
+  background-color: #e97300;
+  font-size: 18pt;
+  color: white;
+  text-align: center;
+  border: none;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 44px;
+}
+
+.flex-container-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  padding-bottom: 62px;
+  padding-left: 36px;
+}
+
+.flex-container-1 h2 {
+  padding-top: 41px;
+  text-align: left;
+  font-size: 24pt;
+}
+
+.flex-container-1 .vl {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  bottom: 0;
+  margin: 0;
+  border: none;
+  height: 143px;
+  border-left: 1px solid;
+  color: #c0c0c0;
+}
+
+.flex-container-1 .unique-products,
+.flex-container-1 .exceptional-support,
+.flex-container-1 .closing-time,
+.flex-container-1 .voice {
+  height: 110px;
+  width: 800px;
+  padding-left: 36px;
+  padding-bottom: 152px;
+  text-align: left;
+  font-size: 18pt;
+}
+
+.box-break {
+  background-color: #00945f;
+  width: 95vw;
+  height: 56px;
+  margin: 32px;
+}
+
+.box-break h2 {
+  text-align: center;
+  font-size: 24pt;
+  color: white;
+}
+
+.box-break p {
+  background-color: #00945f;
+  width: 95vw;
+  height: 56px;
+  margin: 20px;
+  text-align: left;
+  font-size: 18px;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -46,7 +202,7 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
   /* 2 */
 }
 
@@ -161,7 +317,7 @@ fieldset {
    */
 legend {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   color: inherit;
   /* 2 */
@@ -196,7 +352,7 @@ textarea {
 [type="checkbox"],
 [type="radio"] {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */
@@ -269,153 +425,5 @@ template {
    */
 [hidden] {
   display: none;
-}
-
-body {
-  font-family: 100% Arial;
-  background: white;
-  line-height: 1.6;
-}
-
-h1 {
-  color: #00945f;
-  font-size: 30pt;
-  margin: 0;
-}
-
-h2 {
-  color: #00945f;
-  font-size: 24pt;
-  margin: 0;
-}
-
-img {
-  max-width: 100%;
-}
-
-hr {
-  width: 5%;
-}
-
-.logo {
-  height: 35px;
-  width: 317px;
-  padding-left: 36px;
-  padding-top: 64px;
-  padding-bottom: 52px;
-}
-
-.banner .lady-image {
-  width: 100vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.banner h1 {
-  padding-top: 64px;
-  padding-bottom: 0px;
-}
-
-.banner p {
-  font-size: 30pt;
-}
-
-.banner h1, .banner p {
-  text-align: center;
-}
-
-.banner h1::after {
-  content: '';
-  margin: 0 auto;
-  display: block;
-  width: 30%;
-  height: 2px;
-  color: #00945f;
-}
-
-.banner .career-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.banner .career-button button {
-  height: 40px;
-  width: 165px;
-  background-color: #e97300;
-  font-size: 18pt;
-  color: white;
-  text-align: center;
-  border: none;
-}
-
-h1 {
-  text-align: center;
-  padding-top: 44px;
-}
-
-.flex-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  padding-bottom: 62px;
-  padding-left: 36px;
-}
-
-.flex-container h2 {
-  padding-top: 41px;
-  text-align: left;
-  font-size: 24pt;
-}
-
-.flex-container .vl {
-  position: flex;
-  height: 143px;
-  border-left: 1px solid;
-  padding-right: 42px;
-  padding-bottom: 150px;
-  color: #c0c0c0;
-}
-
-.flex-container .unique-products, .flex-container .exceptional-support, .flex-container .closing-time, .flex-container .voice {
-  height: 25vw;
-  width: 40vw;
-  padding-left: 36px;
-  padding-right: 82px;
-  text-align: left;
-  font-size: 18pt;
-}
-
-.box-break {
-  background-color: #00945f;
-  width: 95vw;
-  height: 56px;
-  margin: 32px;
-}
-
-.box-break h2 {
-  text-align: center;
-  font-size: 24pt;
-  color: white;
-}
-
-.box-break p {
-  background-color: #00945f;
-  width: 95vw;
-  height: 56px;
-  margin: 20px;
-  text-align: left;
-  font-size: 18px;
 }
 /*# sourceMappingURL=main.css.map */

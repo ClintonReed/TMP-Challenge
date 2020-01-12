@@ -1,5 +1,4 @@
 .banner {
-
   .lady-image {
     width: 100vw;
     display: flex;
@@ -14,16 +13,17 @@
     font-size: 30pt;
   }
 
-  h1, p {
+  h1,
+  p {
     text-align: center;
   }
 
   h1::after {
-    content: '';
+    content: "";
     margin: 0 auto;
     display: block;
     width: 30%;
-    height: 2px;  
+    height: 2px;
     color: $dark-green;
   }
 
@@ -40,6 +40,6 @@
       color: white;
       text-align: center;
       border: none;
-        }
+    }
   }
 }

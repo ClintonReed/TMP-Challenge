@@ -1,37 +1,43 @@
 h1 {
-    text-align: center;
-    padding-top: 44px;
+  text-align: center;
+  padding-top: 44px;
 }
 
+.flex-container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  align-content: center;
+  padding-bottom: 62px;
+  padding-left: 36px;
 
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    padding-bottom: 62px;
-    padding-left: 36px;
-
-    h2 {
-        padding-top: 41px;
-        text-align: left;
-        font-size: 24pt;
-    }
-
-    .vl {
-        position: flex;
-        height: 143px;
-        border-left: 1px solid;
-        padding-right: 42px;
-        padding-bottom: 150px;
-        color: #c0c0c0;
-    }
-
-    .unique-products, .exceptional-support, .closing-time, .voice {
-        height: 25vw;
-        width: 40vw;
-        padding-left: 36px;
-        padding-right: 82px;
-        text-align: left;
-        font-size: 18pt;
-    }
+  h2 {
+    padding-top: 41px;
+    text-align: left;
+    font-size: 24pt;
   }
+
+  .vl {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    bottom: 0;
+    margin: 0;
+    border: none;
+    height: 143px;
+    border-left: 1px solid;
+    color: #c0c0c0;
+  }
+
+  .unique-products,
+  .exceptional-support,
+  .closing-time,
+  .voice {
+    height: 110px;
+    width: 800px;
+    padding-left: 36px;
+    padding-bottom: 152px;
+    text-align: left;
+    font-size: 18pt;
+  }
+}
