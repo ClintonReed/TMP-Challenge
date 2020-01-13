@@ -3,14 +3,23 @@ h1 {
   padding-top: 44px;
 }
 
+.about-center {
+
+  hr {
+    border: 1px solid $dark-green;
+    border-radius: 1px;
+    max-width: 73px;
+  }
+}
+
+
 .flex-container-1 {
   display: flex;
   flex-wrap: wrap;
   position: center;
-  align-content: center;
-  justify-content: space-evenly;
+  align-content: center;  
+  justify-content: space-around;
   padding-bottom: 54px;
-
 
   h2 {
     padding-top: 41px;
@@ -22,8 +31,9 @@ h1 {
   .exceptional-support,
   .closing-time,
   .voice {
+
     height: 110px;
-    width: 700px;
+    width: 800px;
     padding-bottom: 300px;
     text-align: left;
     font-size: 18pt;

@@ -50,7 +50,9 @@ img {
 }
 
 .banner hr {
-  width: 5%;
+  border: 1px solid #00945f;
+  border-radius: 1px;
+  max-width: 73px;
 }
 
 .banner h1::after {
@@ -89,6 +91,12 @@ h1 {
   padding-top: 44px;
 }
 
+.about-center hr {
+  border: 1px solid #00945f;
+  border-radius: 1px;
+  max-width: 73px;
+}
+
 .flex-container-1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -98,9 +106,8 @@ h1 {
   position: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   padding-bottom: 54px;
 }
 
@@ -115,7 +122,7 @@ h1 {
 .flex-container-1 .closing-time,
 .flex-container-1 .voice {
   height: 110px;
-  width: 700px;
+  width: 800px;
   padding-bottom: 300px;
   text-align: left;
   font-size: 18pt;
@@ -201,11 +208,9 @@ h1 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   position: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-bottom: 300px;
 }
 
@@ -225,8 +230,24 @@ h1 {
 .flex-container-3 .profile-3 {
   height: 110px;
   width: 500px;
-  text-align: left;
-  font-size: 12pt;
+  text-align: center;
+}
+
+.flex-container-3 .profile-1 p,
+.flex-container-3 .profile-2 p,
+.flex-container-3 .profile-3 p {
+  font-style: italic;
+  font-size: 19.35085pt;
+  color: #666666;
+  text-align: center;
+}
+
+.flex-container-3 .profile-1 h3,
+.flex-container-3 .profile-2 h3,
+.flex-container-3 .profile-3 h3 {
+  font-size: 19.35085pt;
+  color: #00945f;
+  text-align: center;
 }
 
 hr {
