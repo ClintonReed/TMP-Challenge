@@ -1,21 +1,78 @@
-.box-break {
-  background-color: $dark-green;
-  width: 95vw;
-  height: 56px;
-  margin: 32px;
+.flex-container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  position: center;
+  align-content: center;
+  justify-content: space-evenly;
+  text-align: center;
 
-  h2 {
-    text-align: center;
-    font-size: 24pt;
-    color: white;
-  }
-
-  p {
+  .box-break {
     background-color: $dark-green;
     width: 95vw;
-    height: 56px;
-    margin: 20px;
+    height: 57px auto;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: center;
+    align-content: center;
+    align-items: center;
+
+
+    h2 {
+      text-align: center;
+      font-size: 24pt;
+      color: white;
+    }
+  }
+  .box-para {
+    width: 95vw;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: center;
+    align-content: center;
+    align-items: center;
+
+    p {
+      margin-top: 0;
+      background-color: $back-gray;
+      color: $gray;
+      width: 95vw;
+      height: 177px auto;
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 50px;
+      font-size: 18pt;
+    }
+  }
+}
+.flex-container-3 {
+  display: flex;
+  flex-wrap: wrap;
+  position: center;
+  align-content: center;
+  justify-content: space-evenly;
+  padding-bottom: 300px;
+
+  h2 {
+    padding-top: 41px;
     text-align: left;
-    font-size: 18px;
+    font-size: 24pt;
+  }
+
+  .br {
+    width: 100vh;
+    color: black;
+  }
+
+  .profile-1,
+  .profile-2,
+  .profile-3 {
+    height: 110px;
+    width: 500px;
+    text-align: left;
+    font-size: 12pt;
   }
 }
