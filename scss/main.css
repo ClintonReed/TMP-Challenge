@@ -111,10 +111,15 @@ h1 {
   padding-bottom: 54px;
 }
 
+.flex-container-1 a {
+  color: #759b24;
+}
+
 .flex-container-1 h2 {
   padding-top: 41px;
   text-align: left;
   font-size: 24pt;
+  color: #00945f;
 }
 
 .flex-container-1 .unique-products,
@@ -329,11 +334,15 @@ hr {
   text-align: left;
 }
 
+.footer-flex a {
+  color: #666666;
+}
+
 .footer-flex .fa {
   padding: 20px;
-  font-size: 10px;
-  width: 5px;
-  height: 5px;
+  font-size: 15px;
+  width: 10px;
+  height: 10px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;

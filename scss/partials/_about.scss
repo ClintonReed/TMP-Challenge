@@ -21,10 +21,15 @@ h1 {
   justify-content: space-around;
   padding-bottom: 54px;
 
+  a {
+    color: $link-green;
+  }
+
   h2 {
     padding-top: 41px;
     text-align: left;
     font-size: 24pt;
+    color: $dark-green;
   }
 
   .unique-products,

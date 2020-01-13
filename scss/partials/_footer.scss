@@ -14,15 +14,19 @@ hr {
 
   p {
     font-size: 11pt;
-    color: rgba(102, 102, 102, 255);
+    color: $light-gray;
     text-align: left;
+  }
+
+  a {
+    color: $light-gray;
   }
   /* Style all font awesome icons */
   .fa {
     padding: 20px;
-    font-size: 10px;
-    width: 5px;
-    height: 5px;
+    font-size: 15px;
+    width: 10px;
+    height: 10px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
