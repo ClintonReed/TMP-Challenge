@@ -208,46 +208,97 @@ h1 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   position: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-bottom: 300px;
-}
-
-.flex-container-3 h2 {
-  padding-top: 41px;
-  text-align: left;
-  font-size: 24pt;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 8%;
 }
 
 .flex-container-3 .br {
-  width: 100vh;
+  width: 100vw;
   color: black;
 }
 
 .flex-container-3 .profile-1,
 .flex-container-3 .profile-2,
 .flex-container-3 .profile-3 {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 110px;
-  width: 500px;
+  width: 400px;
   text-align: center;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 36px;
+  padding-bottom: 500px;
+  position: center;
 }
 
-.flex-container-3 .profile-1 p,
-.flex-container-3 .profile-2 p,
-.flex-container-3 .profile-3 p {
+.flex-container-3 .profile-1 .profile-1-quote .quotation-mark,
+.flex-container-3 .profile-1 .profile-3-quote .quotation-mark,
+.flex-container-3 .profile-2 .profile-1-quote .quotation-mark,
+.flex-container-3 .profile-2 .profile-3-quote .quotation-mark,
+.flex-container-3 .profile-3 .profile-1-quote .quotation-mark,
+.flex-container-3 .profile-3 .profile-3-quote .quotation-mark {
+  padding-right: 80%;
+}
+
+.flex-container-3 .profile-1 .profile-1-quote p,
+.flex-container-3 .profile-1 .profile-3-quote p,
+.flex-container-3 .profile-2 .profile-1-quote p,
+.flex-container-3 .profile-2 .profile-3-quote p,
+.flex-container-3 .profile-3 .profile-1-quote p,
+.flex-container-3 .profile-3 .profile-3-quote p {
   font-style: italic;
   font-size: 19.35085pt;
   color: #666666;
   text-align: center;
+  width: 300px;
+  height: 275px auto;
+  margin-bottom: 0;
 }
 
-.flex-container-3 .profile-1 h3,
-.flex-container-3 .profile-2 h3,
-.flex-container-3 .profile-3 h3 {
+.flex-container-3 .profile-1 .profile-1-quote h3,
+.flex-container-3 .profile-1 .profile-3-quote h3,
+.flex-container-3 .profile-2 .profile-1-quote h3,
+.flex-container-3 .profile-2 .profile-3-quote h3,
+.flex-container-3 .profile-3 .profile-1-quote h3,
+.flex-container-3 .profile-3 .profile-3-quote h3 {
   font-size: 19.35085pt;
-  color: #00945f;
+  color: #009e77;
   text-align: center;
+  width: 300px;
+}
+
+.flex-container-3 .profile-1 .profile-2-quote .quotation-mark,
+.flex-container-3 .profile-2 .profile-2-quote .quotation-mark,
+.flex-container-3 .profile-3 .profile-2-quote .quotation-mark {
+  padding-right: 80%;
+  position: relative;
+}
+
+.flex-container-3 .profile-1 .profile-2-quote p,
+.flex-container-3 .profile-2 .profile-2-quote p,
+.flex-container-3 .profile-3 .profile-2-quote p {
+  font-style: italic;
+  font-size: 19.35085pt;
+  color: #666666;
+  text-align: left;
+  height: 275px auto;
+}
+
+.flex-container-3 .profile-1 .profile-2-quote h3,
+.flex-container-3 .profile-2 .profile-2-quote h3,
+.flex-container-3 .profile-3 .profile-2-quote h3 {
+  font-size: 19.35085pt;
+  color: #009e77;
+  text-align: center;
+  width: 300px;
+  padding-bottom: 50px;
 }
 
 hr {

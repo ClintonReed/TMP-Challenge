@@ -55,38 +55,73 @@
   display: flex;
   flex-wrap: wrap;
   position: center;
-  justify-content: space-between;
-  padding-bottom: 300px;
-
-  h2 {
-    padding-top: 41px;
-    text-align: left;
-    font-size: 24pt;
-  }
+  align-content: center;
+  justify-content: space-around;
+  padding-bottom: 8%;
 
   .br {
-    width: 100vh;
+    width: 100vw;
     color: black;
   }
 
   .profile-1,
   .profile-2,
   .profile-3 {
+    align-content: center;
+    justify-content: space-between;
     height: 110px;
-    width: 500px;
+    width: 400px;
     text-align: center;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 36px;
+    padding-bottom: 500px;
+    position: center;
 
+    .profile-1-quote,
+    .profile-3-quote {
 
-    p {
-      font-style: italic;
-      font-size: 19.35085pt;
-      color: rgba(102, 102, 102, 255);
-      text-align: center;
+      .quotation-mark {
+        padding-right: 80%;
+      }
+      p {
+        font-style: italic;
+        font-size: 19.35085pt;
+        color: $light-gray;
+        text-align: center;
+        width: 300px;
+        height: 275px auto;
+        margin-bottom: 0;
+      }
+      h3 {
+        font-size: 19.35085pt;
+        color: $light-green;
+        text-align: center;
+        width: 300px;
+      }
     }
-    h3 {
-      font-size: 19.35085pt;
-      color: rgba(0, 148, 95, 255);
-      text-align: center;
+
+    .profile-2-quote {
+
+      .quotation-mark {
+        padding-right: 80%;
+        position: relative;
+      }
+      p {
+        font-style: italic;
+        font-size: 19.35085pt;
+        color: $light-gray;
+        text-align: left;
+        height: 275px auto;
+
+      }
+      h3 {
+        font-size: 19.35085pt;
+        color: $light-green;
+        text-align: center;
+        width: 300px;
+        padding-bottom: 50px;
+      }
     }
   }
 }
