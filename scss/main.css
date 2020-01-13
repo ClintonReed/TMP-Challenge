@@ -302,7 +302,68 @@ h1 {
 }
 
 hr {
-  width: 100vw;
+  border: 1px solid #00945f;
+  border-radius: 1px;
+}
+
+.footer-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  -ms-flex-line-pack: left;
+      align-content: left;
+  padding-left: 36px;
+  padding-right: 36px;
+  /* Style all font awesome icons */
+  /* Add a hover effect if you want */
+  /* Set a specific color for each brand */
+  /* Facebook */
+  /* Twitter */
+  /* LinkedIn */
+  /* YouTube */
+}
+
+.footer-flex p {
+  font-size: 11pt;
+  color: #666666;
+  text-align: left;
+}
+
+.footer-flex .fa {
+  padding: 20px;
+  font-size: 10px;
+  width: 5px;
+  height: 5px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.footer-flex .fa:hover {
+  opacity: 0.7;
+}
+
+.footer-flex .fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.footer-flex .fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.footer-flex .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.footer-flex .fa-youtube {
+  background: #bb0000;
+  color: white;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */

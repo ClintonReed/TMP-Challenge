@@ -1,3 +1,61 @@
 hr {
-    width: 100vw;
+  border: 1px solid $green;
+  border-radius: 1px;
+}
+
+.footer-flex {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  align-content: left;
+  padding-left: 36px;
+  padding-right: 36px;
+
+
+  p {
+    font-size: 11pt;
+    color: rgba(102, 102, 102, 255);
+    text-align: left;
+  }
+  /* Style all font awesome icons */
+  .fa {
+    padding: 20px;
+    font-size: 10px;
+    width: 5px;
+    height: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  /* Set a specific color for each brand */
+
+  /* Facebook */
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+  }
+
+  /* Twitter */
+  .fa-twitter {
+    background: #55acee;
+    color: white;
+  }
+
+  /* LinkedIn */
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  /* YouTube */
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
 }
