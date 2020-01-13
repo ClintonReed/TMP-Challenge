@@ -1,23 +1,24 @@
 .banner {
-  .lady-image {
-    width: 100vw;
-    display: flex;
+  .banner-image {
+    .lady-image {
+      width: 100vw;
+      display: flex;
+    }
   }
-
   h1 {
     padding-top: 64px;
     padding-bottom: 0px;
+    text-align: center;
   }
 
   p {
     font-size: 30pt;
+    color: $light-gray;
+    text-align: left;
+    padding-left: 36px;
+    padding-right: 36px;
   }
 
-  h1,
-  p {
-    text-align: center;
-  }
-  
   hr {
     border: 1px solid $dark-green;
     border-radius: 1px;

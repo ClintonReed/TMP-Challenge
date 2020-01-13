@@ -74,7 +74,7 @@
     text-align: center;
     padding-left: 36px;
     padding-right: 36px;
-    padding-top: 36px;
+    padding-top: 150px;
     padding-bottom: 500px;
     position: center;
 
@@ -105,14 +105,12 @@
 
       .quotation-mark {
         padding-right: 80%;
-        position: relative;
       }
       p {
         font-style: italic;
         font-size: 19.35085pt;
         color: $light-gray;
         text-align: left;
-        height: 275px auto;
 
       }
       h3 {
@@ -120,7 +118,6 @@
         color: $light-green;
         text-align: center;
         width: 300px;
-        padding-bottom: 50px;
       }
     }
   }

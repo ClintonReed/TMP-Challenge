@@ -28,7 +28,7 @@ img {
   padding-bottom: 52px;
 }
 
-.banner .lady-image {
+.banner .banner-image .lady-image {
   width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -38,15 +38,15 @@ img {
 .banner h1 {
   padding-top: 64px;
   padding-bottom: 0px;
+  text-align: center;
 }
 
 .banner p {
   font-size: 30pt;
-}
-
-.banner h1,
-.banner p {
-  text-align: center;
+  color: #666666;
+  text-align: left;
+  padding-left: 36px;
+  padding-right: 36px;
 }
 
 .banner hr {
@@ -233,7 +233,7 @@ h1 {
   text-align: center;
   padding-left: 36px;
   padding-right: 36px;
-  padding-top: 36px;
+  padding-top: 150px;
   padding-bottom: 500px;
   position: center;
 }
@@ -278,7 +278,6 @@ h1 {
 .flex-container-3 .profile-2 .profile-2-quote .quotation-mark,
 .flex-container-3 .profile-3 .profile-2-quote .quotation-mark {
   padding-right: 80%;
-  position: relative;
 }
 
 .flex-container-3 .profile-1 .profile-2-quote p,
@@ -288,7 +287,6 @@ h1 {
   font-size: 19.35085pt;
   color: #666666;
   text-align: left;
-  height: 275px auto;
 }
 
 .flex-container-3 .profile-1 .profile-2-quote h3,
@@ -298,7 +296,6 @@ h1 {
   color: #009e77;
   text-align: center;
   width: 300px;
-  padding-bottom: 50px;
 }
 
 hr {
